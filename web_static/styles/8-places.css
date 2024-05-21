@@ -1,0 +1,105 @@
+.places h1 {
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+.places ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.places ul li {
+    list-style-type: none;
+}
+
+.places ul li article {
+    width: 390px;
+    padding: 20px;
+    margin: 20px;
+    border: solid 1px #FF5A5F;
+    border-radius: 4px;
+    position: relative;
+}
+
+.places ul li article h2 {
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.places ul li article .price_by_night {
+    color: #FF5A5F;
+    border: solid 4px;
+    border-radius: 50%;
+    min-width: 60px;
+    height: 60px;
+    font-size: 30px;
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.places ul li article .information {
+    height: 80px;
+    border-top: 1px solid #DDDDDD;
+    border-bottom: 1px solid #DDDDDD;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+.places ul li article .information .max_guest {
+    width: 100px;
+    background: url('../images/icon_group.png') no-repeat;
+    background-position: center;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.places ul li article .information .max_guest h3 {
+    position: absolute;
+    bottom: 0;
+}
+
+.places ul li article .information .number_rooms {
+    width: 100px;
+    background: url('../images/icon_bed.png') no-repeat;
+    background-position: center;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.places ul li article .information .number_rooms h3 {
+    position: absolute;
+    bottom: 0;
+}
+
+.places ul li article .information .number_bathrooms {
+    width: 100px;
+    background: url('../images/icon_bath.png') no-repeat;
+    background-position: center;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.places ul li article .information .number_bathrooms h3 {
+    position: absolute;
+    bottom: 0;
+}
+
+.places ul li article .user {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
